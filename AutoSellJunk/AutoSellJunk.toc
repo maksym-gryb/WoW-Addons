@@ -1,0 +1,5 @@
+## Interface: 11200
+## Title: Auto-Sell Junk
+## Notes: Automatically sell all junk in inventory when talking with a merchant
+AutoSellJunk.lua
+AutoSellJunk.xml
