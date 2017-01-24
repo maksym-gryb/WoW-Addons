@@ -3,9 +3,8 @@
  xsi:schemaLocation="http://www.blizzard.com/wow/ui/ 
  ..\..\FrameXML\UI.xsd">
 
-	<Script File="Maksym_AutoSellJunk.lua"/>
-
-	<Frame name="Maksym_AutoSellJunk">
+	<Script File="AutoSellJunk.lua"/>
+	<Frame name="AutoSellJunk">
 		<Scripts>
 			<OnLoad> this:RegisterEvent("MERCHANT_SHOW"); </OnLoad>
 			<OnEvent> SellJunk(); </OnEvent>
